@@ -10,8 +10,8 @@ void main() {
       expect(OnNowPlayingTv(), OnNowPlayingTv());
       expect(OnPopularTv(), OnPopularTv());
       expect(OnTopRatedTv(), OnTopRatedTv());
-      expect(OnTvRecommendation(31917),
-          OnTvRecommendation(testTvList.first.id));
+      expect(OnTvRecommendations(31917),
+          OnTvRecommendations(testTvList.first.id));
       expect(const OnTvDetail(1), OnTvDetail(testTvDetail.id));
       expect(const OnTvSeasonDetail(1, 1),
           OnTvSeasonDetail(testTvDetail.id, testTvSeasonDetail.seasonNumber));
